@@ -1,0 +1,10 @@
+.site-nav__link_line:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  bottom: -32px;
+  left: 0;
+}

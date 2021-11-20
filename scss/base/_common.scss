@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.features-list,
+.directions,
+.team,
+.buttons,
+.projects,
+.site-nav,
+.contacts,
+.footer-list,
+.clients-item,
+.social-item,
+.footer-adress,
+.item-social {
+  list-style: none;
+}
