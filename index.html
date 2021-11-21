@@ -56,14 +56,14 @@
         </nav>
 
         <!-- MOBILE MENU START -->
-        <button class="burger-btn">
+        <button class="burger-btn" data-menu-open>
           <svg class="burger-btn__icon" width="40px" height="40px">
             <use href="./images/sprite.svg#icon-drop-menu"></use>
           </svg>
         </button>
 
-        <div class="mobile-menu">
-          <button class="mobile-menu__btn">
+        <div class="mobile-menu is-open" data-menu>
+          <button class="mobile-menu__close" data-menu-close>
           <svg class="mobile-menu__icon" width="40px" height="40px">
             <use href="./images/sprite.svg#icon-drop-cross"></use>
           </svg>
@@ -74,7 +74,7 @@
 
 
         <!-- Контакти хедер -->
-        <!-- <div class="header-contacts header__info">
+        <div class="header-contacts header__info">
           <ul class="header-contacts__list">
             <li class="header-contacts__item header-contacts__item_position">
               <a href="mailto:info@devstudio.com" class="header-contacts__link">
@@ -95,7 +95,7 @@
           </ul>
         </div>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- Герой -->
@@ -568,5 +568,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile.js"></script>
   </body>
 </html>
