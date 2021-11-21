@@ -444,6 +444,28 @@ img {
   transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.mobile-menu__close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  line-height: 0;
+}
+
+.mobile-menu__icon:hover, .mobile-menu__icon:focus {
+  fill: var(--hover-color);
+}
+
 .header-contacts__list {
   font-style: normal;
   font-size: 14px;
