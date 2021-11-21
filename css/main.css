@@ -452,7 +452,15 @@ img {
   color: var(--accent-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+  .header-contacts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 1200px) and (max-width: 768px) {
   .header-contacts__list {
     display: none;
   }

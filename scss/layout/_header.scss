@@ -101,8 +101,14 @@
 }
 
 .header-contacts__list {
-  @media screen and (max-width: 768px) {
-    display: none;
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }
 
