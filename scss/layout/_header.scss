@@ -29,6 +29,7 @@
   cursor: pointer;
   border: none;
   padding: 0;
+  margin-left: auto;
 }
 
 .burger-btn__icon {
@@ -61,14 +62,14 @@
   padding-top: 16px;
   padding-bottom: 16px;
 
-  @media screen and (min-width: 768px) {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  @media screen and (min-width: 767px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   @media screen and (min-width: 1200px) {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 }
 
