@@ -603,12 +603,6 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .container {
-    width: 480px;
-  }
-}
-
 /* button */
 .button-hero {
   font-family: inherit;
