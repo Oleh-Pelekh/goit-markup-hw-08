@@ -584,14 +584,14 @@ img {
 }
 
 .hero {
-  max-width: 1600px;
+  max-width: 479px;
   height: 600px;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
   background: #2f303a;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img/hero/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1147,12 +1147,10 @@ img {
   color: var(--hover-color);
 }
 
-.mobile {
+.mobile-container {
   display: flex;
   flex-direction: column;
-}
-
-.mobile-menu__contacts {
-  margin-top: auto;
+  justify-content: space-between;
+  height: 100%;
 }
 /*# sourceMappingURL=main.css.map */

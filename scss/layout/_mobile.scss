@@ -134,11 +134,9 @@
   color: var(--hover-color);
 }
 
-.mobile {
+.mobile-container {
   display: flex;
   flex-direction: column;
-}
-
-.mobile-menu__contacts {
-  margin-top: auto;
+  justify-content: space-between;
+  height: 100%;
 }
