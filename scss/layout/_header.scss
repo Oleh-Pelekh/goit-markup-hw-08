@@ -62,12 +62,40 @@
 
 .page-header {
   border-bottom: 1px solid #ececec;
-  padding-top: 16px;
-  padding-bottom: 16px;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (max-width: 479px) {
+  .page-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1199px) {
+  .site-navigation__logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1199px) {
+  .site-nav {
     padding-top: 26px;
     padding-bottom: 26px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1199px) {
+  .header-contacts__list {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
