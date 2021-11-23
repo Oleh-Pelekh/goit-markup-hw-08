@@ -817,6 +817,16 @@ img {
   color: var(--primary-text-color);
 }
 
+.title-features {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .directions-name {
   font-weight: bold;
   font-size: 14px;
@@ -834,8 +844,25 @@ img {
   width: 100%;
 }
 
-.directions-title {
-  padding-top: 0;
+.directions-info {
+  position: relative;
+}
+
+.directions {
+  display: flex;
+  margin-left: -30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .directions-title {
+    display: none;
+    padding-top: 0;
+  }
+}
+
+.directions-images {
+  flex-basis: calc(100% / 3 - 370px);
+  margin-left: 30px;
 }
 
 .team .title {
