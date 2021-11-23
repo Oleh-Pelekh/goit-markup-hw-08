@@ -755,6 +755,20 @@ img {
   margin: 15px;
 }
 
+@media screen and (min-width: 1199px) {
+  .text-features {
+    width: 270px;
+    width: calc((100% - 15 * 2) / 2);
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .text {
+    width: 270px;
+    width: calc((100% - 15 * 2) / 2);
+  }
+}
+
 .features-list {
   margin-left: -15px;
   margin-right: -15px;
