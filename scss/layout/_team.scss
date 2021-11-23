@@ -23,7 +23,12 @@
 
 .team-info {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
+
+  @media screen and (min-width: 1199px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .team-images {

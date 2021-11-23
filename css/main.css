@@ -141,8 +141,22 @@ img {
   display: flex;
   align-items: center;
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 122px;
+  padding-right: 122px;
+}
+
+@media screen and (min-width: 767px) {
+  .team-social {
+    padding-left: 74px;
+    padding-right: 74px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .team-social {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .social-item {
@@ -897,7 +911,14 @@ img {
 
 .team-info {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1199px) {
+  .team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .team-images {

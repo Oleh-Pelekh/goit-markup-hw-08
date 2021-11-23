@@ -2,8 +2,18 @@
   display: flex;
   align-items: center;
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 122px;
+  padding-right: 122px;
+
+  @media screen and (min-width: 767px) {
+    padding-left: 74px;
+    padding-right: 74px;
+  }
+
+  @media screen and (min-width: 1199px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .social-item {
