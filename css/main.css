@@ -82,6 +82,7 @@ img {
 .container {
   padding: 0px 15px;
   margin: 0 auto;
+  height: auto;
   outline: 2px solid red;
 }
 
@@ -141,15 +142,6 @@ img {
   display: flex;
   align-items: center;
   margin-top: 16px;
-  padding-left: 122px;
-  padding-right: 122px;
-}
-
-@media screen and (min-width: 767px) {
-  .team-social {
-    padding-left: 74px;
-    padding-right: 74px;
-  }
 }
 
 @media screen and (min-width: 1199px) {
@@ -882,7 +874,7 @@ img {
 }
 
 .directions-images {
-  flex-basis: calc(100% / 3 - 370px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
@@ -906,13 +898,19 @@ img {
 .team {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
   margin-left: -15px;
+}
+
+@media screen and (min-width: 1199px) {
+  .team {
+    display: flex;
+    margin-left: -30px;
+  }
 }
 
 .team-info {
   padding-top: 30px;
-  padding-bottom: 24px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 1199px) {
@@ -923,14 +921,17 @@ img {
 }
 
 .team-images {
-  background: #ffffff;
   margin-left: 15px;
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-images:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (min-width: 1199px) {
+  .team-images {
+    flex-basis: calc(100% / 4 - 270px);
+    margin-left: 30px;
+  }
 }
 
 .team .text,
