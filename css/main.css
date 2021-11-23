@@ -744,11 +744,32 @@ img {
   padding-bottom: 0;
 }
 
+@media screen and (min-width: 767px) {
+  .text-features,
+  .text {
+    width: 354px;
+  }
+}
+
+.text-features {
+  margin: 15px;
+}
+
+.features-list {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .title-features {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .title-features {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
