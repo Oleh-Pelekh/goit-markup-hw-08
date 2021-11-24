@@ -12,6 +12,10 @@
   letter-spacing: 0.03em;
   margin-bottom: 12px;
   color: var(--primary-text-color);
+
+  @media screen and (max-width: 1199px) {
+    line-height: 0.86;
+  }
 }
 
 .modal-form-field {

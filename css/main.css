@@ -266,12 +266,22 @@ img {
   color: var(--primary-text-color);
 }
 
+@media screen and (max-width: 1199px) {
+  .modal-form-head {
+    line-height: 0.86;
+  }
+}
+
 .modal-form-field {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--title-text-color);
   margin-bottom: 10px;
+}
+
+.test:focus {
+  color: var(--hover-color);
 }
 
 .field-modal {
