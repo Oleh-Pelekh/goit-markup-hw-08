@@ -1,10 +1,21 @@
 .clients-list {
   display: flex;
-  flex-wrap: wrap;
+  @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.clients-item {
+  @media screen and (max-width: 1199px) {
+    margin: 15px;
+  }
 }
 
 .clients-item:not(:last-child) {
-  margin-right: 30px;
+  @media screen and (min-width: 1199px) {
+    margin-right: 30px;
+  }
 }
 
 .clients-after-items {
