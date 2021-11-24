@@ -849,7 +849,7 @@ img {
 
 .section-title {
   font-size: 28px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
