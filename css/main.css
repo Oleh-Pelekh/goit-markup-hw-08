@@ -870,10 +870,15 @@ img {
 .section-title {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (max-width: 1199px) {
+  .section-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .section-title {
     margin-bottom: 50px;
   }
@@ -985,7 +990,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .team-images {
     flex-basis: calc(100% / 4 - 270px);
     margin-left: 30px;
@@ -1015,15 +1020,19 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
+.clients-item {
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients-item {
-    margin: 15px;
+    flex-basis: calc((100% - 3 * 30px) / 3);
   }
 }
 
-@media screen and (min-width: 1199px) {
-  .clients-item:not(:last-child) {
-    margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .clients-item {
+    flex-basis: calc((100% - 6 * 30px) / 6);
   }
 }
 
