@@ -1239,6 +1239,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-adress-container {
+    margin-right: 165px;
+  }
+}
+
 .logo-white {
   color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1255,7 +1261,7 @@ img {
   padding-bottom: 60px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .page-footer {
     text-align: center;
   }
@@ -1456,6 +1462,12 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-info {
+    display: flex;
   }
 }
 
