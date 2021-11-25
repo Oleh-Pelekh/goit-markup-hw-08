@@ -142,8 +142,7 @@ img {
   display: flex;
   align-items: center;
   margin-top: 16px;
-  padding-left: 122px;
-  padding-right: 122px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 767px) {
@@ -950,12 +949,6 @@ img {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 767px) {
-  .team {
-    margin-left: -15px;
-  }
-}
-
 @media screen and (min-width: 1199px) {
   .team {
     display: flex;
@@ -976,17 +969,10 @@ img {
 }
 
 .team-images {
-  margin-left: 15px;
-  margin-bottom: 15px;
+  width: 100%;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-@media screen and (max-width: 767px) {
-  .team-images {
-    margin: 15px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1374,7 +1360,8 @@ img {
 
 @media screen and (max-width: 767px) {
   .input-mail-footer {
-    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -1436,6 +1423,7 @@ img {
 @media screen and (max-width: 767px) {
   .icon-btn-footer {
     display: flex;
+    flex-direction: column;
   }
 }
 
