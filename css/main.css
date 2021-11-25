@@ -1337,6 +1337,12 @@ img {
 }
 
 /* footer-send */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-submit {
+    display: flex;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer-submit {
     margin-left: 93px;
@@ -1468,6 +1474,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-info {
     display: flex;
+    align-items: center;
   }
 }
 
