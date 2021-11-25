@@ -236,9 +236,9 @@ img {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 479px) {
   .modal {
-    max-width: 450px;
+    max-width: 100%;
   }
 }
 
@@ -986,6 +986,12 @@ img {
   .team-images {
     flex-basis: calc(100% / 4 - 270px);
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team-images:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 

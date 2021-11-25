@@ -13,16 +13,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
 
-@media screen and (max-width: 1199px) {
-  .modal {
-    max-width: 450px;
+  @media screen and (max-width: 479px) {
+    max-width: 100%;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .modal {
+  @media screen and (min-width: 1200px) {
     width: 528px;
     min-height: 581px;
   }
