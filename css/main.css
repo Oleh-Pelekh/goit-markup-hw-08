@@ -1263,6 +1263,12 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (max-width: 767px) {
+  .page-footer {
+    text-align: center;
+  }
+}
+
 /* address */
 .footer-contacts {
   text-decoration: none;
@@ -1282,6 +1288,12 @@ img {
 .footer-logo {
   display: flex;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-logo {
+    display: block;
+  }
 }
 
 .contacts .adress {
@@ -1330,6 +1342,13 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-submit {
     margin-left: 93px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-submit {
+    display: flex;
+    align-items: center;
   }
 }
 
