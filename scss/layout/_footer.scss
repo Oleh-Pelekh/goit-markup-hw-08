@@ -191,6 +191,9 @@
 }
 
 .icon-btn-footer {
+  @media screen and (max-width: 767px) {
+    display: flex;
+  }
 }
 
 .join {

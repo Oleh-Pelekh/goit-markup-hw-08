@@ -1433,6 +1433,12 @@ img {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .icon-btn-footer {
+    display: flex;
+  }
+}
+
 .join {
   font-weight: 500;
   font-size: 14px;
