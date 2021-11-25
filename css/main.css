@@ -1346,7 +1346,7 @@ img {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .input-mail-footer {
     max-width: 100%;
   }
@@ -1418,9 +1418,7 @@ img {
 @media screen and (max-width: 767px) {
   .footer-info {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 

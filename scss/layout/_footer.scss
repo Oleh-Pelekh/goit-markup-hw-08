@@ -103,7 +103,7 @@
     height: 50px;
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     max-width: 100%;
   }
 
@@ -185,9 +185,10 @@
 
   @media screen and (max-width: 767px) {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // flex-wrap: wrap;
   }
 }
 
