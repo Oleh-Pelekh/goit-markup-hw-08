@@ -1,6 +1,11 @@
 .page-header__container {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   // justify-content: space-between;
 }
 
