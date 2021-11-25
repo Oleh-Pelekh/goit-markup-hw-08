@@ -280,10 +280,6 @@ img {
   margin-bottom: 10px;
 }
 
-.test:focus {
-  color: var(--hover-color);
-}
-
 .field-modal {
   margin-bottom: 0;
 }
@@ -1277,7 +1273,32 @@ img {
   color: var(--hover-color);
 }
 
+.footer-logo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.contacts .adress {
+  display: flex;
+  margin-bottom: 9px;
+}
+
+.footer-adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-footer {
+  margin-bottom: 9px;
+}
+
+.contacts .adress {
+  display: inline-block;
+}
+
 .adress-footer {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -1299,9 +1320,11 @@ img {
 }
 
 /* footer-send */
+.footer-submit {
+  margin-left: 93px;
+}
+
 .input-mail-footer {
-  width: 358px;
-  height: 50px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 15px;
@@ -1312,6 +1335,19 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), drop-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .input-mail-footer {
+    width: 358px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .input-mail-footer {
+    max-width: 100%;
+  }
 }
 
 .input-mail-footer:focus {
@@ -1369,10 +1405,49 @@ img {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-info {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.join-rights {
+  margin-left: 70px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
 .link-social {
   width: 100%;
   height: 100%;
+  display: block;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1388,6 +1463,10 @@ img {
 .link-social:hover .icon-social,
 .link-social:focus .icon-social {
   fill: var(--accent-color);
+}
+
+.item-social:not(:last-child) {
+  margin-right: 10px;
 }
 
 .item-social {
