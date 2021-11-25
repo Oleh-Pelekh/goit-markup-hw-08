@@ -1412,6 +1412,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1433,6 +1434,12 @@ img {
 @media screen and (min-width: 1200px) {
   .join-rights {
     margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .join-rights {
+    margin-bottom: 60px;
   }
 }
 
