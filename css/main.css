@@ -501,6 +501,20 @@ img {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .header-contacts__icon_size {
+    width: 14px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .header-contacts__icon_height {
+    width: 10px;
+    height: 14px;
+  }
+}
+
 .site-navigation__logo {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
