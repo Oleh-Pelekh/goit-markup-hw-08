@@ -92,7 +92,9 @@
 /* footer-send */
 
 .footer-submit {
-  margin-left: 93px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
 }
 
 .input-mail-footer {
@@ -181,23 +183,18 @@
     justify-content: space-between;
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     display: flex;
-    flex-wrap: wrap;
-  }
-
-  @media screen and (max-width: 479px) {
-    display: block;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
 .join-rights {
-  margin-left: 70px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 
 .footer-social {
