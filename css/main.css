@@ -83,7 +83,6 @@ img {
   padding: 0px 15px;
   margin: 0 auto;
   height: auto;
-  outline: 2px solid red;
 }
 
 @media screen and (min-width: 480px) {
@@ -548,17 +547,17 @@ img {
   }
 }
 
-@media (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .site-navigation__logo {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 }
 
-@media (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .site-nav {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
@@ -919,7 +918,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
