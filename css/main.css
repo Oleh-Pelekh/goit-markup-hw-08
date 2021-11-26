@@ -1426,7 +1426,6 @@ img {
 }
 
 .input-mail-footer {
-  max-width: 450px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 15px;
@@ -1448,7 +1447,6 @@ img {
 
 @media screen and (max-width: 1199px) {
   .input-mail-footer {
-    width: 450px;
     margin-bottom: 20px;
   }
 }
