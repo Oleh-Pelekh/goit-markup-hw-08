@@ -678,14 +678,14 @@
     <!-- Футер -->
     <footer class="page-footer">
       <div class="container footer-info">
-        <div>
+        <div class="footer-adress-container">
           <a href="./index.html" class="footer-logo">Web<span class="logo-white">Studio</span></a>
 
           <!-- Адреса -->
           <address class="adress-footer adress" id="contacts">
-            <ul>
+            <ul class="">
               <li class="footer-adress">
-                <a class="adress-info" href="/">г. Киев, пр-т Леси Украинки, 26 </a>
+                <a href="/" class="adress-info">г. Киев, пр-т Леси Украинки, 26 </a>
               </li>
               <li class="footer-adress">
                 <a href="mailto:info@devstudio.com" class="footer-contacts contacts-footer">info@devstudio.com</a>
@@ -734,23 +734,23 @@
           </ul>
         </div>
 
+        
+
         <div class="footer-submit">
           <form action="#">
             <p class="join">Подпишитесь на рассылку</p>
-            <label>
+            <div class="icon-btn-footer">
               <input type="email" class="input-mail-footer" name="user-email" placeholder="E-mail" />
-            </label>
-            <span class="icon-btn-footer">
               <button class="footer-btn" type="submit">
                 Подписаться
                 <svg class="icon-telegram" width="24px" height="24px">
                   <use href="./images/sprite.svg#icon-send"></use>
                 </svg>
               </button>
-            </span>
+            </div>
           </form>
         </div>
-      </div>
+
     </footer>
     <script src="./js/mobile.js"></script>
   </body>
