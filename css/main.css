@@ -204,6 +204,12 @@ img {
   left: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-nav__link_line:after {
+    bottom: -34px;
+  }
+}
+
 .backdrop {
   width: 100vw;
   height: 100vh;
@@ -1397,6 +1403,10 @@ img {
 }
 
 /* footer-send */
+.footer-submit {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-submit {
     display: flex;
@@ -1420,7 +1430,7 @@ img {
 }
 
 .input-mail-footer {
-  width: 450px;
+  max-width: 450px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 15px;
@@ -1442,7 +1452,7 @@ img {
 
 @media screen and (max-width: 1199px) {
   .input-mail-footer {
-    width: 100%;
+    max-width: 450px;
     margin-bottom: 20px;
   }
 }

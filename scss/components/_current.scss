@@ -7,10 +7,8 @@
   border-radius: 2px;
   bottom: -32px;
   left: 0;
-}
 
-// .site-nav__link_line:after {
-//   @media screen and (min-width: 768px) {
-//     bottom: -32px;
-//   }
-// }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    bottom: -34px;
+  }
+}
