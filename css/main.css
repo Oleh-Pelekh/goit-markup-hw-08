@@ -951,6 +951,11 @@ img {
 @media screen and (max-width: 1199px) {
   .directions-title {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .directions-title {
     padding-top: 0;
   }
 }
