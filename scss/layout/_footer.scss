@@ -5,6 +5,11 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--hover-color);
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .footer-adress-container {
@@ -206,6 +211,11 @@
     display: flex;
     flex-direction: column;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .join {
@@ -233,7 +243,10 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
   }
 }
 
@@ -285,11 +298,4 @@
 .item-social {
   width: 44px;
   height: 44px;
-}
-
-.test {
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    display: flex;
-    justify-content: space-between;
-  }
 }

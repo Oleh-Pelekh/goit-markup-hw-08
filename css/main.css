@@ -1285,6 +1285,13 @@ img {
   color: var(--hover-color);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-adress-container {
     margin-bottom: 60px;
@@ -1499,6 +1506,13 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .icon-btn-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .join {
   font-weight: 500;
   font-size: 14px;
@@ -1528,7 +1542,10 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-info {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
   }
 }
 
@@ -1581,13 +1598,6 @@ img {
 .item-social {
   width: 44px;
   height: 44px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .test {
-    display: flex;
-    justify-content: space-between;
-  }
 }
 
 /* БУРГЕР */
