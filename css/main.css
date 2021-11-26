@@ -1400,6 +1400,7 @@ img {
   .footer-submit {
     display: flex;
     align-items: flex-start;
+    margin-top: 60px;
   }
 }
 
@@ -1437,9 +1438,9 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .input-mail-footer {
-    width: 100%;
+    width: 450px;
     margin-bottom: 20px;
   }
 }
@@ -1484,7 +1485,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-btn {
     margin-left: auto;
     margin-right: auto;
