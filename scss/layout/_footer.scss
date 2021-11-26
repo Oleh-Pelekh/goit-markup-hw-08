@@ -10,6 +10,11 @@
     display: flex;
     justify-content: center;
   }
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
 }
 
 .footer-adress-container {
@@ -258,6 +263,7 @@
 
   @media screen and (max-width: 767px) {
     margin-bottom: 60px;
+    margin-top: 60px;
   }
 }
 
