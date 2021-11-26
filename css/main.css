@@ -1232,12 +1232,6 @@ img {
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 767px) {
-  .projects {
-    margin: -15px;
-  }
-}
-
 .project-content {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

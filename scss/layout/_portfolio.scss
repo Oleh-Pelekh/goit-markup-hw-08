@@ -129,10 +129,6 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-
-  @media screen and (min-width: 767px) {
-    margin: -15px;
-  }
 }
 
 .project-content {
